@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.search {
+  border-radius: 4px;
+  border: 1px solid var(--bfc-8-e-6, #bfc8e5);
+  padding: 10px;
+
+  display: flex;
+  width: 327px;
+  padding: 16px;
+  align-items: center;
+  gap: 8px;
+}
+
+.search-item {
+  border: none;
+  color: var(--151-b-32, #151b32);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.content {
+  background: #ffffff;
+  height: 800px;
+  width: 1213px;
+  padding: 70px;
+}
+
+.section {
+  background: #e6eaf8;
+  padding: 300px;
+}
+
+.navigation {
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+h3 {
+  color: var(--151-b-32, #151b32);
+  font-family: Merriweather;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+#newusers {
+  border-radius: 8px;
+  background: #849fff;
+  padding: 16px;
+  color: #fff;
+}
+
+.content-users-li {
+  margin: 20px;
+  display: inline-block;
+  opacity: 0.8;
+
+  color: var(--151-b-32, #151b32);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.content-users-ul {
+  list-style: none;
+}
+
+.information-user {
+  width: 100%;
+  padding: 24px;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.user-card {
+  width: 31%;
+  height: 208px;
+  float: left;
+  margin-left: 16px;
+  margin-bottom: 16px;
+  background: #fbfcff;
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.user-card:hover {
+  border: 1px solid #bfc8e5;
+
+  background: #fbfcff;
+
+  box-shadow: 0px 8px 23px 0px rgba(218, 224, 249, 0.7);
+}
+
+.user-card-content {
+  display: flex;
+  gap: 16px;
+}
+
+.content-username {
+  color: var(--151-b-32, #151b32);
+  font-family: Merriweather;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.class-user {
+  color: var(--151-b-32, #151b32);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.content-user {
+  margin-top: 16px;
+  gap: 10px;
+}
+.btn-content {
+  color: #516fd4;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid var(--bfc-8-e-6, #bfc8e5);
+  background: #fff;
+  padding: 2px 8px;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  margin-right: 4px;
+  margin-bottom: 4px;
+}

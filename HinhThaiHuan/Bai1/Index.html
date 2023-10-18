@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 1</title>
+  </head>
+  <body>
+    <h1>Tính tổng số nguyên tố</h1>
+    <form onsubmit="event.preventDefault(); handleSubmit();">
+      <label for="a">a:</label>
+      <input type="number" id="a" name="a" required />
+      <br />
+      <label for="b">b:</label>
+      <input type="number" id="b" name="b" required />
+      <br />
+      <button type="submit">Tính tổng số nguyên tố</button>
+    </form>
+    <div id="ChuoiSNT"></div>
+    <div id="Tong"></div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
